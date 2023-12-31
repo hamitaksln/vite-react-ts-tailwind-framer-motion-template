@@ -1,4 +1,4 @@
-import {AnimatePresence, motion} from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 
 const stacks = ['Vite', 'React', 'Tailwind', 'Framer Motion']
 
@@ -20,7 +20,7 @@ function App() {
               key={stack}
               className="bg-neutral-100 rounded-lg p-2"
               variants={{
-                initial: {x: -300},
+                initial: { x: -300 },
                 animate: {
                   x: 0,
                 },
